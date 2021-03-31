@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+    background: grey;
+}
+main{
+    max-width: 800px;
+    background: white;
+}
+main,header,section,article,footer{
+    border: 1px solid grey;
+}
+article img{
+    width: 100%;
+}
+article{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+article div{
+    padding: 5px;
+    border-radius: 5px;
+}
+#
